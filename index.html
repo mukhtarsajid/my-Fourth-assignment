@@ -1,0 +1,254 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Application Tracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css">
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Stats Card -->
+    <div class="header-card">
+      <h1>Job Application Tracker</h1>
+      <div class="stats-row">
+        <div class="stat-item">
+          <label id="stat-total">Total</label>
+          <span class="value black">0</span>
+        </div>
+        <div class="stat-item">
+          <label id="stat-interview">Interview</label>
+          <span class="value green">0</span>
+        </div>
+        <div class="stat-item">
+          <label id="stat-rejected">Rejected</label>
+          <span class="value red">0</span>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Jobs Card-1 -->
+    <div class="jobs-card">
+      <div class="jobs-header">
+        <h2>Available Jobs</h2>
+        <span class="jobs-count">8 jobs</span>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <button onclick="switchTab ('all')" id="tab-all" class="tab-btn active" >All</button>
+        <button onclick="switchTab ('interview')" id="tab-interview" class="tab-btn">Interview</button>
+        <button onclick="switchTab ('rejected')" id="tab-rejected" class="tab-btn">Rejected</button>
+      </div>
+
+      <!-- job-container -->
+<div id="job-container" class="job-container">
+
+<!-- all-container -->
+<section id="all-container" class="hidden">
+
+<!-- Job Entry-1 -->
+<div class="job-card">
+  <div class="job-title-row">
+    <div>
+      <div class="company-name">Mobile First Corp</div>
+      <div class="role-name">React Native Developer</div>
+
+      <div class="job-meta">
+        Remote <span class="meta-dot">•</span>
+        Full-time <span class="meta-dot">•</span>
+        $130,000 – $175,000
+      </div>
+
+      <span class="status-badge">NOT APPLIED</span>
+
+      <p class="job-desc">
+        Build cross-platform mobile applications using React Native.
+      </p>
+
+      <div class="action-btns">
+        <button class="btn-interview">INTERVIEW</button>
+        <button class="btn-rejected">REJECTED</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Job Entry-2 -->
+<div class="job-card">
+  <div class="job-title-row">
+    <div>
+      <div class="company-name">Mobile First Corp</div>
+      <div class="role-name">React Native Developer</div>
+
+      <div class="job-meta">
+        Remote <span class="meta-dot">•</span>
+        Full-time <span class="meta-dot">•</span>
+        $130,000 – $175,000
+      </div>
+
+      <span class="status-badge">NOT APPLIED</span>
+
+      <p class="job-desc">
+        Build cross-platform mobile applications using React Native.
+      </p>
+
+      <div class="action-btns">
+        <button class="btn-interview">INTERVIEW</button>
+        <button class="btn-rejected">REJECTED</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="job-card">
+  <div class="job-title-row">
+    <div>
+      <div class="company-name">Mobile First Corp</div>
+      <div class="role-name">React Native Developer</div>
+
+      <div class="job-meta">
+        Remote <span class="meta-dot">•</span>
+        Full-time <span class="meta-dot">•</span>
+        $130,000 – $175,000
+      </div>
+
+      <span class="status-badge">NOT APPLIED</span>
+
+      <p class="job-desc">
+        Build cross-platform mobile applications using React Native.
+      </p>
+
+      <div class="action-btns">
+        <button class="btn-interview">INTERVIEW</button>
+        <button class="btn-rejected">REJECTED</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="job-card">
+  <div class="job-title-row">
+    <div>
+      <div class="company-name">Mobile First Corp</div>
+      <div class="role-name">React Native Developer</div>
+
+      <div class="job-meta">
+        Remote <span class="meta-dot">•</span>
+        Full-time <span class="meta-dot">•</span>
+        $130,000 – $175,000
+      </div>
+
+      <span class="status-badge">NOT APPLIED</span>
+
+      <p class="job-desc">
+        Build cross-platform mobile applications using React Native.
+      </p>
+
+      <div class="action-btns">
+        <button class="btn-interview">INTERVIEW</button>
+        <button class="btn-rejected">REJECTED</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="job-card">
+  <div class="job-title-row">
+    <div>
+      <div class="company-name">Mobile First Corp</div>
+      <div class="role-name">React Native Developer</div>
+
+      <div class="job-meta">
+        Remote <span class="meta-dot">•</span>
+        Full-time <span class="meta-dot">•</span>
+        $130,000 – $175,000
+      </div>
+
+      <span class="status-badge">NOT APPLIED</span>
+
+      <p class="job-desc">
+        Build cross-platform mobile applications using React Native.
+      </p>
+
+      <div class="action-btns">
+        <button class="btn-interview">INTERVIEW</button>
+        <button class="btn-rejected">REJECTED</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="job-card">
+  <div class="job-title-row">
+    <div>
+      <div class="company-name">Mobile First Corp</div>
+      <div class="role-name">React Native Developer</div>
+
+      <div class="job-meta">
+        Remote <span class="meta-dot">•</span>
+        Full-time <span class="meta-dot">•</span>
+        $130,000 – $175,000
+      </div>
+
+      <span class="status-badge">NOT APPLIED</span>
+
+      <p class="job-desc">
+        Build cross-platform mobile applications using React Native.
+      </p>
+
+      <div class="action-btns">
+        <button class="btn-interview">INTERVIEW</button>
+        <button class="btn-rejected">REJECTED</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- all-container -->
+</section>
+
+<section id="interview-container" class="hidden">
+  Interview section
+</section>
+
+<section id="rejected-container" class="hidden">
+  Rejected section
+</section>
+<!-- job-container -->
+</div>
+
+<!-- Empty State -->
+<div id="empty-state" class="empty-state hidden">
+
+  <div class="icon">📭</div>
+
+  <p class="title">
+    No jobs available
+  </p>
+
+  <p class="subtitle">
+    Check back soon for new job opportunities
+  </p>
+
+</div>
+
+
+
+    
+
+          <script>
+
+          </script>
+          <script src="script.js"></script>
+</body>
+
+</html>
