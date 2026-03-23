@@ -49,7 +49,7 @@ document.getElementById('job-container').addEventListener('click', function(even
 
 if (clickedElement.classList.contains("rejected")) { console.log("rejected clicked");
 
-}
+} 
 
 if (clickedElement.classList.contains("delete")) { console.log("delete clicked");
 
